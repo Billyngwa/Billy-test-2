@@ -1,0 +1,22 @@
+@mixin display_element_flex($align){
+    display:flex;
+    justify-content:space-between;
+    align-items:$align;
+}
+@mixin style_type{
+    text-decoration:none;
+    list-style:none;
+}
+@mixin container($width,$margin_left){
+    width:$width;
+    margin-left:$margin_left;
+}
+@mixin button_style ($background,$color,$width) {
+    border:none;
+    border-radius: 30px;
+    font-family:$body_font_family;
+    font-size:$body_Font_size;
+    background:$background;
+    color:$color;
+    width:$width;
+}
